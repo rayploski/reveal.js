@@ -236,7 +236,7 @@ body {
 	}
 
 .reveal a:not(.image) {
-	color: hsl(185, 85%, 50%);
+	color: hsl(239, 88%, 49%);
 	text-decoration: none;
 
 	-webkit-transition: all .2s ease;
@@ -247,7 +247,7 @@ body {
 }
 	
 	.reveal a:not(.image):hover {
-		color: hsl(185, 85%, 70%);
+		color: hsl(239, 88%, 49%);
 		background: hsla(185, 25%, 20%, 0.4);
 		text-shadow: none;
 		border: none;
@@ -272,7 +272,7 @@ body {
 
 	.reveal a:hover img {
 		background: rgba(255,255,255,0.2);
-		border-color: #13DAEC;
+		border-color: #0e11ec;
 		
 		-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
 		   -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
@@ -303,7 +303,7 @@ body {
 	}
 		.reveal .controls a.enabled {
 			opacity: 0.6;
-			color: hsl(185, 85%, 70%);
+			color: hsl(4, 83%, 54%);
 
 			text-shadow: 0px 0px 2px hsla(185, 45%, 70%, 0.3);
 		}
@@ -949,6 +949,12 @@ body {
 }
 .blackout .state-background {
 	background: rgba( 0, 0, 0, 0.6 );
+}
+
+.cover .state-background {
+    background-image: url("/images/title-background.png"), url("/images/background-footer.png");
+    background-size: contain;
+    background-origin: padding-box;
 }
 
 

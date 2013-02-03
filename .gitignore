@@ -2,5 +2,10 @@
 .svn
 log/*.log
 tmp/**
-
+_site
+.sass-cache
 *.swp
+.awestruct
+.idea
+.eclipse
+
